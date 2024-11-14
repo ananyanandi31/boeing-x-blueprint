@@ -1,35 +1,110 @@
 ---
-title: Home
+title: Azure by Team BluePrint
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Azure Training Module: Azure DevOps and DevSecOps 💻
+>> Made by Team Blueprint 
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+>> Sponsored by Boeing
 
-More specifically, the created site:
+Welcome to our Guide to Azure!
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+This holistic guide is designed to equip new graduates, early-career professionals, professors (their students), and self-learners to gain practical experience in building, automating, and deploying software and data workflows utilizing DevOps, DevSecOps in Azure, thereby bridging the knowledge gap in its principles and practices. 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## Module Components
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+## A. DevOps Module**
 
-To get started with creating a site, simply:
+Content Overview:
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+1. **Introduction to DevOps:**
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+- Overview of DevOps principles and practices.
+- Key tools: Azure DevOps, GitHub Actions, Jenkins.
 
-----
+2. **Infrastructure as Code (IaC):**
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+- Using Azure Resource Manager (ARM) templates and Terraform.
+- Automating the provisioning of resources.
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+3. **CI/CD Pipelines:**
+
+- Setting up pipelines in Azure DevOps.
+- Automating code builds, tests, and deployments.
+
+4. **Monitoring and Logging:**
+
+- Setting up Azure Monitor and Log Analytics.
+- Application performance and error tracking.
+
+Hands-On Exercises:
+
+- Build a pipeline to deploy a simple web application to Azure App Service.
+- Automate testing and environment configuration using IaC.
+
+## B. DevSecOps Module
+
+Content Overview:
+
+1. **Introduction to DevSecOps:**
+
+- Principles of secure software development.
+- Shifting security "left" in the software lifecycle.
+
+2. **Security Tools Integration:**
+
+- Implementing static code analysis with SonarQube or Snyk.
+- Dynamic security scanning tools like OWASP ZAP.
+
+3. **Securing CI/CD Pipelines:**
+
+- Adding automated security tests to pipelines.
+- Using Azure Security Center for compliance monitoring.
+
+4. **Access Control and Secrets Management:**
+
+- Implementing Role-Based Access Control (RBAC).
+- Managing secrets securely using Azure Key Vault.
+
+Hands-On Exercises:
+
+Add static and dynamic security scans to an existing CI/CD pipeline.
+Set up Azure Key Vault to manage application secrets.
+
+## Deliverables
+
+1. **Plan with Milestone Schedule::**
+- Prepare a project timeline with clear milestones to be approved by the project owner.
+
+2. **Proposal (Presentation)::**
+- Definitions of DevSecOps for software, DataOps for data products, CI/CD for applications vs data.
+- Market Surveys of open job postings for required skills, showcasing user (student, professor, new graduates) interviews, university courses etc.
+- Competitor analysis by conducting tool evaluation of open-source tools for creating CI/CD pipelines employing DevSecOps/DataOps principles.
+
+3. **Procure & Build Lab in the Box:**
+- Rewrite installation processes for DevSecOps tools (e.g., source code repositories, artifact management, build orchestration, security scanning) on Azure.
+- Create samples and reference projects for users
+- Document procedures for lab setup and teardown.
+
+4. **Training Material:**
+- Step-by-step exercises for the training module.
+
+5. **Demo of Lab in the Box:**
+- Present a working lab setup showcasing DevSecOps and DataOps pipelines.
+
+6. **Implementation Timeline:**
+- Week 1-2: User Research, Market Research and Industry standard tools research
+- Week 3-4: Project Plan and Project Scope 
+- Week 5-6: Proposal development
+- Week 7-9: DevSecOps Module development
+- Week 10-12: Training Material Finalization
+- Week 13-15: Creating Hands-on exercises and reference applications
+- Week 16-18: User Testing of Training Material
+- Week 19-21: DataOps Pipeline development
+
+### Connect with Team BluePrint 🔗
+- [Ananya Nandi](https://www.linkedin.com/in/ananya-nandi/)
+- [Devarsh Patel](https://www.linkedin.com/in/devarsh-patel-/)
+- [Haren Bhatia](https://www.linkedin.com/in/harenb/)
+
