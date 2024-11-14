@@ -14,7 +14,7 @@ This holistic guide is designed to equip new graduates, early-career professiona
 
 ## Module Components
 
-## A. DevOps Module**
+## A. DevOps Module
 
 Content Overview:
 
